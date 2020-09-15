@@ -1,0 +1,8 @@
+.twin-container{
+margin:20px;
+width:70%;
+display: flex;
+}
+.cart-container{
+    border-left: 1px solid gray;
+}

@@ -1,0 +1,16 @@
+.main-btn{
+    padding: 10px 20px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+}
+.product-detail{
+    padding: 10px;
+    margin:10px;
+    border-bottom: 1px solid grey;
+    display: flex;
+}
+.product-detail img{
+    width: 40%;
+    margin:20px;
+}

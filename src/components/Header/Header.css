@@ -1,0 +1,16 @@
+
+.main-header a{
+    text-decoration: none;
+    padding: 40px;
+
+}
+.main-header{
+    text-align: center;
+    padding: 40px;
+    margin-top:10px;
+    border: 1px solid gray;
+    background-color: aquamarine;
+}
+.main-header a:hover{
+   background-color: beige;
+}
