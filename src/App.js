@@ -11,11 +11,13 @@ import Shop from './components/Shop/Shop';
 import Review from './components/Review/Review';
 import NoMatch from './components/NoMatch/NoMatch';
 import ItemDetail from './components/ItemDetail/ItemDetail';
+import Shipment from './components/Shipment/Shipment';
+import LogIn from './components/LogIn/LogIn';
 function App() {
   return (
     <div>
-      <Header></Header>
       <Router>
+      <Header/>
         <Switch> 
           <Route exact path = '/'>
               <Shop/>
@@ -28,6 +30,12 @@ function App() {
           </Route>
           <Route path = '/product/:productKey'>
              <ItemDetail/>
+          </Route>
+          <Route path = '/shipment'>
+            <Shipment/>
+          </Route>
+          <Route path = '/log-in'>
+            <LogIn/>
           </Route>
           <Route path = '*'>
              <NoMatch/>

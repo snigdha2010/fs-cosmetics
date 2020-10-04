@@ -5,6 +5,7 @@ import fakeData from '../../fakeData';
 import ReviewDetails from '../ReviewDetails/ReviewDetails';
 import Cart from '../Cart/Cart';
 import gify from '../../images/giphy.gif';
+import { Link } from 'react-router-dom';
 
 const Review = () => {
 
@@ -55,8 +56,8 @@ const handleRemoveBtn = (key) => {
             <div className = 'cart-container'>
                 {
                     <Cart cart={cart}>   
-                        <button onClick={handlePlaceOrder} className='main-btn'>Place Order</button>
-                    </Cart>
+                       <Link to = '/shipment'><button onClick={handlePlaceOrder} className='main-btn'>Place Order</button>
+                       </Link></Cart>
                 }
             </div>
         </div>
